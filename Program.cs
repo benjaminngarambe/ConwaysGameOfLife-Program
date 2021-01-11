@@ -4,6 +4,7 @@ using System.Threading;
 
 namespace ConwaysGameOfLife_Program
 {
+    ///Benjamin Ngarambe
     /// Conway's Game of Life
     /// <see href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"/>
     internal class Program
