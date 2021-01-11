@@ -1,5 +1,5 @@
 <a href="https://www.instagram.com/ngarambe_benjamin/">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Trefoil_knot_conways_game_of_life.gif" alt=" Numerical Integration" position = "center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Trefoil_knot_conways_game_of_life.gif" alt=" Numerical Integration" align="middle">
 </a>
 
 # ConwaysGameOfLife-Program
