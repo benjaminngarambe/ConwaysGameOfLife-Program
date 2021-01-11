@@ -1,5 +1,5 @@
 <a href="https://www.instagram.com/ngarambe_benjamin/">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Trefoil_knot_conways_game_of_life.gif" alt=" Numerical Integration" align="middle">
+  <img src="https://64.media.tumblr.com/c926a9c2570535f03f253011dcefe579/tumblr_oes6oiKbX21r2geqjo1_540.gifv" alt=" Numerical Integration" align="middle">
 </a>
 
 # ConwaysGameOfLife-Program
