@@ -4,10 +4,8 @@ using System.Threading;
 
 namespace ConwaysGameOfLife_Program
 {
-    /// <summary>
-    /// Console implementation of Conway's Game of Life (aka 80's retro style)
-    /// </summary>
-    /// <see cref="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"/>
+    /// Conway's Game of Life
+    /// <see href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"/>
     internal class Program
     {
         public const string ALIVE_CELL_PRINT_CHARACTERS = "\u25A0"; //Unicode box character
@@ -41,7 +39,7 @@ namespace ConwaysGameOfLife_Program
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.CursorVisible = false;
 
-            //Try and expand the console width and height to accomodate the full gri
+            //Try and expand the console width and height to accomodate the full grid
             if (Console.WindowWidth < GRID_WIDTH + 5)
             {
                 if (GRID_WIDTH + 5 < Console.LargestWindowWidth)
@@ -116,8 +114,6 @@ namespace ConwaysGameOfLife_Program
 
             Console.Write(output);
         }
-
-        //TODO: https://stackoverflow.com/questions/29920056/c-sharp-something-faster-than-console-write
 
         /// <summary>
         /// Writing to the console each new generation (irrespective of what has changed) is slow and CPU intensive.

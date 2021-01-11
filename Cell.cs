@@ -10,10 +10,14 @@
         public static void UpdateState(int x, int y, int[,] grid, int[,] nextGenerationGrid)
         {
             int livingNeighbourCount = 0;
+            //HOW IT WORKS
 
-            //(x-1, y-1)    (x-1, y)    (x-1, y+1)
-            //(x,   y-1)    (X,   y)    (x,   y+1)
-            //(x+1, y-1)    (x+1, y)    (x+1, y+1)
+            //(x-1, y-1)  |  (x-1, y)  |  (x-1, y+1)
+            //--------------------------------------
+            //(x,   y-1)  |  (X,   y)  |  (x,   y+1)
+            //--------------------------------------
+            //(x+1, y-1)  |  (x+1, y)  |  (x+1, y+1)
+            //--------------------------------------
 
             livingNeighbourCount += GetCellState(x - 1, y - 1, grid);
             livingNeighbourCount += GetCellState(x - 1, y, grid);
