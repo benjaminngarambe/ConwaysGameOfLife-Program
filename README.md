@@ -1,5 +1,5 @@
 <a href="https://www.instagram.com/ngarambe_benjamin/">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif" alt=" Numerical Integration" >
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Trefoil_knot_conways_game_of_life.gif" alt=" Numerical Integration" position = "center">
 </a>
 
 # ConwaysGameOfLife-Program
